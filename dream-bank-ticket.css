@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+section {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 50vh;
+    font-size: 17px;
+}
+section h1:nth-child(1) {
+    font-size: 36px;
+    color: goldenrod;
+    margin-bottom: 18px;
+}
+section div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 14px;
+}
+#ticket-number {
+    font-size: 60px;
+    margin: 8px 0;
+}
+
+.home {
+    color: white;
+    margin-top: 4px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+} 
+
