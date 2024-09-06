@@ -95,10 +95,14 @@ function displayDate() {
     }
 
     //displaying time lower than 12
-    if(hour > 13) {
+    if(hour > 12) {
         hour -= 12
     }
-
+    //displaying 12am when it is generated as 0
+    if(hour == 0) {
+        hour = 12
+    }
+    
     let minute = new Date().getMinutes()
 
     timeDisplay.textContent = `${hour}:${minute}${timeMark}`
