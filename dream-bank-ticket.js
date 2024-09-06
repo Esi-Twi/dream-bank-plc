@@ -95,7 +95,7 @@ function displayDate() {
     }
 
     //displaying time lower than 12
-    if(hour > 12) {
+    if(hour > 13) {
         hour -= 12
     }
 
